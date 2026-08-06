@@ -1,0 +1,56 @@
+name: Refresh Solana Pulse
+
+on:
+  schedule:
+    # Hourly. Change this one line to alter the refresh interval.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["collect.py", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: solana-pulse-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect snapshot
+        run: python3 collect.py
+
+      - name: Show what we got
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open("data.json"))
+          p = d.get("performance", {}); v = d.get("validators", {})
+          print("generated_at :", d["generated_at"])
+          print("tps 1h avg   :", p.get("tps_avg_1h"))
+          print("validators   :", v.get("active"), "active /", v.get("delinquent"), "delinquent")
+          print("nakamoto     :", v.get("nakamoto_coefficient"))
+          print("errors       :", len(d.get("errors", [])))
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "solana-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json history.jsonl
+          if git diff --staged --quiet; then
+            echo "No change this run."
+          else
+            git commit -m "chore: refresh Solana Pulse snapshot"
+            git push
+          fi
