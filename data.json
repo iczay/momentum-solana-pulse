@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:55:59+00:00",
+  "generated_at": "2026-08-16T07:41:11+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1017,
-    "slot_index": 249456,
+    "slot_index": 255993,
     "slots_in_epoch": 432000,
-    "progress_pct": 57.74,
-    "absolute_slot": 439593456,
-    "block_height": 417644061
+    "progress_pct": 59.26,
+    "absolute_slot": 439599993,
+    "block_height": 417650590
   },
   "performance": {
-    "tps_latest": 2733.3,
-    "tps_avg_1h": 2765.1,
-    "tps_peak_1h": 3132.4,
-    "non_vote_tps_latest": 1057.7,
-    "avg_slot_time_s": 0.417,
+    "tps_latest": 2831.7,
+    "tps_avg_1h": 2767.1,
+    "tps_peak_1h": 3243.3,
+    "non_vote_tps_latest": 1181.8,
+    "avg_slot_time_s": 0.414,
     "samples": 60
   },
   "health": "ok",
@@ -94,18 +94,18 @@
     ]
   },
   "supply": {
-    "total_sol": 632261601,
-    "circulating_sol": 582784690,
+    "total_sol": 632261581,
+    "circulating_sol": 582784671,
     "circulating_pct": 92.17
   },
   "defi": {
-    "tvl_usd": 4812208073,
-    "change_7d_pct": 0.08,
-    "change_30d_pct": -0.87
+    "tvl_usd": 4810420676,
+    "change_7d_pct": 0.04,
+    "change_30d_pct": -0.9
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2898202705.8,
-    "change_30d_pct": 1.4
+    "stablecoin_supply_usd": 2898096433.96,
+    "change_30d_pct": 1.39
   },
   "dex": {
     "volume_24h_usd": 1234854042.04,
@@ -118,14 +118,14 @@
     "change_1d_pct": 0.32
   },
   "market": {
-    "price_usd": 75.34,
-    "market_cap_usd": 43908330551.97789,
-    "change_24h_pct": -0.08,
-    "volume_24h_usd": 588336731.9812562
+    "price_usd": 75.38,
+    "market_cap_usd": 43929455444.92469,
+    "change_24h_pct": 0.18,
+    "volume_24h_usd": 578034857.8802502
   },
   "derived": {
     "annualised_fees_usd": 2948711579,
-    "fees_to_mcap_ratio": 0.06716
+    "fees_to_mcap_ratio": 0.06712
   },
   "errors": [],
   "ok": true
