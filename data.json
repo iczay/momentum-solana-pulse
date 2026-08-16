@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:34:08+00:00",
+  "generated_at": "2026-08-16T21:31:16+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1017,
-    "slot_index": 367514,
+    "slot_index": 375762,
     "slots_in_epoch": 432000,
-    "progress_pct": 85.07,
-    "absolute_slot": 439711514,
-    "block_height": 417762096
+    "progress_pct": 86.98,
+    "absolute_slot": 439719762,
+    "block_height": 417770340
   },
   "performance": {
-    "tps_latest": 3566.7,
-    "tps_avg_1h": 3586.1,
-    "tps_peak_1h": 4380.7,
-    "non_vote_tps_latest": 1907.0,
-    "avg_slot_time_s": 0.414,
+    "tps_latest": 3944.8,
+    "tps_avg_1h": 3483.1,
+    "tps_peak_1h": 4221.8,
+    "non_vote_tps_latest": 2309.9,
+    "avg_slot_time_s": 0.416,
     "samples": 60
   },
   "health": "ok",
@@ -93,18 +93,13 @@
       }
     ]
   },
-  "supply": {
-    "total_sol": 632261186,
-    "circulating_sol": 582784276,
-    "circulating_pct": 92.17
-  },
   "defi": {
-    "tvl_usd": 4796359966,
-    "change_7d_pct": -0.25,
-    "change_30d_pct": -1.19
+    "tvl_usd": 4794482295,
+    "change_7d_pct": -0.29,
+    "change_30d_pct": -1.23
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2898018437.06,
+    "stablecoin_supply_usd": 2898060346.93,
     "change_30d_pct": 1.39
   },
   "dex": {
@@ -118,15 +113,20 @@
     "change_1d_pct": 1.16
   },
   "market": {
-    "price_usd": 75.2,
-    "market_cap_usd": 43822791823.62271,
-    "change_24h_pct": -0.28,
-    "volume_24h_usd": 613264832.2116369
+    "price_usd": 74.93,
+    "market_cap_usd": 43668219169.83238,
+    "change_24h_pct": -0.88,
+    "volume_24h_usd": 626060232.2528266
   },
   "derived": {
     "annualised_fees_usd": 2973184548,
-    "fees_to_mcap_ratio": 0.06785
+    "fees_to_mcap_ratio": 0.06809
   },
-  "errors": [],
-  "ok": true
+  "errors": [
+    {
+      "metric": "getSupply",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "ok": false
 }
