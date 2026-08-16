@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:32:40+00:00",
+  "generated_at": "2026-08-16T16:37:44+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1017,
-    "slot_index": 324025,
+    "slot_index": 333396,
     "slots_in_epoch": 432000,
-    "progress_pct": 75.01,
-    "absolute_slot": 439668025,
-    "block_height": 417718618
+    "progress_pct": 77.17,
+    "absolute_slot": 439677396,
+    "block_height": 417727989
   },
   "performance": {
-    "tps_latest": 3815.2,
-    "tps_avg_1h": 3535.3,
-    "tps_peak_1h": 4549.5,
-    "non_vote_tps_latest": 2165.6,
-    "avg_slot_time_s": 0.415,
+    "tps_latest": 3562.7,
+    "tps_avg_1h": 3981.1,
+    "tps_peak_1h": 4581.6,
+    "non_vote_tps_latest": 1933.3,
+    "avg_slot_time_s": 0.416,
     "samples": 60
   },
   "health": "ok",
@@ -94,17 +94,17 @@
     ]
   },
   "supply": {
-    "total_sol": 632261362,
-    "circulating_sol": 582784452,
+    "total_sol": 632261322,
+    "circulating_sol": 582784411,
     "circulating_pct": 92.17
   },
   "defi": {
-    "tvl_usd": 4802325672,
-    "change_7d_pct": -0.12,
-    "change_30d_pct": -1.07
+    "tvl_usd": 4803773044,
+    "change_7d_pct": -0.09,
+    "change_30d_pct": -1.04
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2897893476.55,
+    "stablecoin_supply_usd": 2898018971.14,
     "change_30d_pct": 1.39
   },
   "dex": {
@@ -118,14 +118,14 @@
     "change_1d_pct": 1.16
   },
   "market": {
-    "price_usd": 75.51,
-    "market_cap_usd": 43994500362.741005,
-    "change_24h_pct": 0.16,
-    "volume_24h_usd": 525242206.0266793
+    "price_usd": 75.6,
+    "market_cap_usd": 44054374739.89515,
+    "change_24h_pct": 0.26,
+    "volume_24h_usd": 568507214.9447571
   },
   "derived": {
     "annualised_fees_usd": 2973184829,
-    "fees_to_mcap_ratio": 0.06758
+    "fees_to_mcap_ratio": 0.06749
   },
   "errors": [],
   "ok": true
