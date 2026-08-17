@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T04:54:24+00:00",
+  "generated_at": "2026-08-17T05:46:50+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1018,
-    "slot_index": 7913,
+    "slot_index": 15469,
     "slots_in_epoch": 432000,
-    "progress_pct": 1.83,
-    "absolute_slot": 439783913,
-    "block_height": 417834449
+    "progress_pct": 3.58,
+    "absolute_slot": 439791469,
+    "block_height": 417842004
   },
   "performance": {
-    "tps_latest": 2873.7,
-    "tps_avg_1h": 3031.3,
-    "tps_peak_1h": 3501.0,
-    "non_vote_tps_latest": 1249.2,
-    "avg_slot_time_s": 0.414,
+    "tps_latest": 2993.7,
+    "tps_avg_1h": 3047.4,
+    "tps_peak_1h": 3548.3,
+    "non_vote_tps_latest": 1372.4,
+    "avg_slot_time_s": 0.416,
     "samples": 60
   },
   "health": "ok",
@@ -93,18 +93,13 @@
       }
     ]
   },
-  "supply": {
-    "total_sol": 632388735,
-    "circulating_sol": 582899703,
-    "circulating_pct": 92.17
-  },
   "defi": {
-    "tvl_usd": 4798740610,
-    "change_7d_pct": -1.14,
-    "change_30d_pct": -0.69
+    "tvl_usd": 4801830808,
+    "change_7d_pct": -1.08,
+    "change_30d_pct": -0.62
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2898155014.72,
+    "stablecoin_supply_usd": 2898136909.87,
     "change_30d_pct": -0.35
   },
   "dex": {
@@ -118,15 +113,20 @@
     "change_1d_pct": -18.76
   },
   "market": {
-    "price_usd": 75.49,
-    "market_cap_usd": 44001698181.96395,
-    "change_24h_pct": 0.03,
-    "volume_24h_usd": 873227411.782885
+    "price_usd": 75.41,
+    "market_cap_usd": 43957917229.71132,
+    "change_24h_pct": 0.14,
+    "volume_24h_usd": 875817297.0758116
   },
   "derived": {
     "annualised_fees_usd": 2415469800,
-    "fees_to_mcap_ratio": 0.05489
+    "fees_to_mcap_ratio": 0.05495
   },
-  "errors": [],
-  "ok": true
+  "errors": [
+    {
+      "metric": "getSupply",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "ok": false
 }
