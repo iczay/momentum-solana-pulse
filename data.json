@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:38:41+00:00",
+  "generated_at": "2026-08-17T18:54:12+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1018,
-    "slot_index": 118231,
+    "slot_index": 129112,
     "slots_in_epoch": 432000,
-    "progress_pct": 27.37,
-    "absolute_slot": 439894231,
-    "block_height": 417944708
+    "progress_pct": 29.89,
+    "absolute_slot": 439905112,
+    "block_height": 417955569
   },
   "performance": {
-    "tps_latest": 4533.1,
-    "tps_avg_1h": 4613.0,
-    "tps_peak_1h": 5283.2,
-    "non_vote_tps_latest": 2899.3,
-    "avg_slot_time_s": 0.419,
+    "tps_latest": 4343.4,
+    "tps_avg_1h": 4342.6,
+    "tps_peak_1h": 5672.4,
+    "non_vote_tps_latest": 2748.9,
+    "avg_slot_time_s": 0.417,
     "samples": 60
   },
   "health": "ok",
@@ -93,14 +93,19 @@
       }
     ]
   },
+  "supply": {
+    "total_sol": 632388269,
+    "circulating_sol": 582896010,
+    "circulating_pct": 92.17
+  },
   "defi": {
-    "tvl_usd": 4844982607,
-    "change_7d_pct": -0.19,
-    "change_30d_pct": 0.27
+    "tvl_usd": 4849609176,
+    "change_7d_pct": -0.09,
+    "change_30d_pct": 0.36
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2897784860.86,
-    "change_30d_pct": -0.36
+    "stablecoin_supply_usd": 2898085421.75,
+    "change_30d_pct": -0.35
   },
   "dex": {
     "volume_24h_usd": 1055467633.95,
@@ -113,20 +118,15 @@
     "change_1d_pct": -16.49
   },
   "market": {
-    "price_usd": 75.74,
-    "market_cap_usd": 44149310771.469475,
-    "change_24h_pct": 0.51,
-    "volume_24h_usd": 1330457776.7976906
+    "price_usd": 75.9,
+    "market_cap_usd": 44236721669.048096,
+    "change_24h_pct": 0.99,
+    "volume_24h_usd": 1321139147.6716838
   },
   "derived": {
     "annualised_fees_usd": 2482879460,
-    "fees_to_mcap_ratio": 0.05624
+    "fees_to_mcap_ratio": 0.05613
   },
-  "errors": [
-    {
-      "metric": "getSupply",
-      "error": "TimeoutError: The read operation timed out"
-    }
-  ],
-  "ok": false
+  "errors": [],
+  "ok": true
 }
