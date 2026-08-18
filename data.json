@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:37:10+00:00",
+  "generated_at": "2026-08-18T23:32:57+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1018,
-    "slot_index": 369437,
+    "slot_index": 377471,
     "slots_in_epoch": 432000,
-    "progress_pct": 85.52,
-    "absolute_slot": 440145437,
-    "block_height": 418195702
+    "progress_pct": 87.38,
+    "absolute_slot": 440153471,
+    "block_height": 418203736
   },
   "performance": {
-    "tps_latest": 3835.5,
-    "tps_avg_1h": 3823.7,
-    "tps_peak_1h": 4866.4,
-    "non_vote_tps_latest": 2210.5,
-    "avg_slot_time_s": 0.415,
+    "tps_latest": 3866.2,
+    "tps_avg_1h": 3741.7,
+    "tps_peak_1h": 4587.9,
+    "non_vote_tps_latest": 2236.4,
+    "avg_slot_time_s": 0.416,
     "samples": 60
   },
   "health": "ok",
@@ -94,18 +94,18 @@
     ]
   },
   "supply": {
-    "total_sol": 632387295,
-    "circulating_sol": 582892111,
+    "total_sol": 632387263,
+    "circulating_sol": 582892078,
     "circulating_pct": 92.17
   },
   "defi": {
-    "tvl_usd": 4895932566,
-    "change_7d_pct": 1.17,
-    "change_30d_pct": 0.39
+    "tvl_usd": 4897486427,
+    "change_7d_pct": 1.2,
+    "change_30d_pct": 0.43
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2858602685.19,
-    "change_30d_pct": -1.7
+    "stablecoin_supply_usd": 2858730533.93,
+    "change_30d_pct": -1.69
   },
   "dex": {
     "volume_24h_usd": 1474994437.3600001,
@@ -114,14 +114,14 @@
   },
   "fees": {
     "fees_24h_usd": 11283565.299999999,
-    "fees_7d_usd": 64099151.77999999,
+    "fees_7d_usd": 64099151.94999999,
     "change_1d_pct": 65.87
   },
   "market": {
-    "price_usd": 77.11,
-    "market_cap_usd": 44920707099.958,
-    "change_24h_pct": 1.79,
-    "volume_24h_usd": 1410979232.161896
+    "price_usd": 77.07,
+    "market_cap_usd": 44924958450.993706,
+    "change_24h_pct": 1.47,
+    "volume_24h_usd": 1412749662.1723855
   },
   "derived": {
     "annualised_fees_usd": 4118501334,
