@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:45:25+00:00",
+  "generated_at": "2026-08-18T10:42:12+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,17 +7,17 @@
   },
   "epoch": {
     "epoch": 1018,
-    "slot_index": 258059,
+    "slot_index": 266268,
     "slots_in_epoch": 432000,
-    "progress_pct": 59.74,
-    "absolute_slot": 440034059,
-    "block_height": 418084438
+    "progress_pct": 61.64,
+    "absolute_slot": 440042268,
+    "block_height": 418092621
   },
   "performance": {
-    "tps_latest": 3078.0,
-    "tps_avg_1h": 3007.2,
-    "tps_peak_1h": 3768.3,
-    "non_vote_tps_latest": 1399.9,
+    "tps_latest": 2898.5,
+    "tps_avg_1h": 2973.9,
+    "tps_peak_1h": 3455.4,
+    "non_vote_tps_latest": 1220.8,
     "avg_slot_time_s": 0.416,
     "samples": 60
   },
@@ -26,39 +26,39 @@
     "active": 687,
     "delinquent": 8,
     "delinquent_pct": 1.15,
-    "total_active_stake_sol": 435548044,
+    "total_active_stake_sol": 435374338,
     "nakamoto_coefficient": 18,
-    "top10_stake_pct": 24.4,
-    "avg_commission_pct": 12.17,
+    "top10_stake_pct": 24.41,
+    "avg_commission_pct": 12.31,
     "top_validators": [
       {
         "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "stake_sol": 17091057,
-        "stake_pct": 3.924,
+        "stake_pct": 3.926,
         "commission_pct": 7
       },
       {
         "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "stake_sol": 16003006,
-        "stake_pct": 3.674,
+        "stake_pct": 3.676,
         "commission_pct": 0
       },
       {
         "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "stake_sol": 12495360,
-        "stake_pct": 2.869,
+        "stake_pct": 2.87,
         "commission_pct": 5
       },
       {
         "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "stake_sol": 12259520,
-        "stake_pct": 2.815,
+        "stake_pct": 2.816,
         "commission_pct": 0
       },
       {
         "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "stake_sol": 9203436,
-        "stake_pct": 2.113,
+        "stake_pct": 2.114,
         "commission_pct": 7
       },
       {
@@ -70,19 +70,19 @@
       {
         "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "stake_sol": 8305834,
-        "stake_pct": 1.907,
+        "stake_pct": 1.908,
         "commission_pct": 0
       },
       {
         "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "stake_sol": 7983993,
-        "stake_pct": 1.833,
+        "stake_pct": 1.834,
         "commission_pct": 7
       },
       {
         "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "stake_sol": 7342590,
-        "stake_pct": 1.686,
+        "stake_pct": 1.687,
         "commission_pct": 5
       },
       {
@@ -93,19 +93,14 @@
       }
     ]
   },
-  "supply": {
-    "total_sol": 632387792,
-    "circulating_sol": 582895533,
-    "circulating_pct": 92.17
-  },
   "defi": {
-    "tvl_usd": 4857335563,
-    "change_7d_pct": 0.37,
-    "change_30d_pct": -0.4
+    "tvl_usd": 4853435049,
+    "change_7d_pct": 0.29,
+    "change_30d_pct": -0.48
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2858114500.3,
-    "change_30d_pct": -1.71
+    "stablecoin_supply_usd": 2857859632.32,
+    "change_30d_pct": -1.72
   },
   "dex": {
     "volume_24h_usd": 1425243228.3600001,
@@ -118,15 +113,20 @@
     "change_1d_pct": 58.5
   },
   "market": {
-    "price_usd": 75.83,
-    "market_cap_usd": 44199966079.71363,
-    "change_24h_pct": 0.75,
-    "volume_24h_usd": 1289596463.485076
+    "price_usd": 75.8,
+    "market_cap_usd": 44183177850.97767,
+    "change_24h_pct": 0.25,
+    "volume_24h_usd": 1285744212.6954138
   },
   "derived": {
     "annualised_fees_usd": 3935329369,
-    "fees_to_mcap_ratio": 0.08903
+    "fees_to_mcap_ratio": 0.08907
   },
-  "errors": [],
-  "ok": true
+  "errors": [
+    {
+      "metric": "getSupply",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "ok": false
 }
