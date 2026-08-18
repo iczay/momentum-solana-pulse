@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:40:41+00:00",
+  "generated_at": "2026-08-18T07:00:34+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,17 +7,17 @@
   },
   "epoch": {
     "epoch": 1018,
-    "slot_index": 222612,
+    "slot_index": 234173,
     "slots_in_epoch": 432000,
-    "progress_pct": 51.53,
-    "absolute_slot": 439998612,
-    "block_height": 418048999
+    "progress_pct": 54.21,
+    "absolute_slot": 440010173,
+    "block_height": 418060560
   },
   "performance": {
-    "tps_latest": 2827.2,
-    "tps_avg_1h": 2845.3,
-    "tps_peak_1h": 3171.6,
-    "non_vote_tps_latest": 1191.2,
+    "tps_latest": 3135.3,
+    "tps_avg_1h": 2875.3,
+    "tps_peak_1h": 3503.8,
+    "non_vote_tps_latest": 1472.1,
     "avg_slot_time_s": 0.415,
     "samples": 60
   },
@@ -93,18 +93,13 @@
       }
     ]
   },
-  "supply": {
-    "total_sol": 632387905,
-    "circulating_sol": 582895645,
-    "circulating_pct": 92.17
-  },
   "defi": {
-    "tvl_usd": 4839812062,
-    "change_7d_pct": 0.01,
-    "change_30d_pct": -0.76
+    "tvl_usd": 4847878972,
+    "change_7d_pct": 0.18,
+    "change_30d_pct": -0.59
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2857970233.54,
+    "stablecoin_supply_usd": 2858079960.61,
     "change_30d_pct": -1.72
   },
   "dex": {
@@ -113,20 +108,25 @@
     "change_1d_pct": 35.03
   },
   "fees": {
-    "fees_24h_usd": 10772700.589999998,
-    "fees_7d_usd": 61815412.639999986,
-    "change_1d_pct": 58.36
+    "fees_24h_usd": 10778523.299999999,
+    "fees_7d_usd": 61884291.77999999,
+    "change_1d_pct": 58.45
   },
   "market": {
-    "price_usd": 75.6,
-    "market_cap_usd": 44043195865.00929,
-    "change_24h_pct": 0.24,
-    "volume_24h_usd": 1313460009.1970074
+    "price_usd": 75.87,
+    "market_cap_usd": 44220946063.20636,
+    "change_24h_pct": 0.06,
+    "volume_24h_usd": 1303156626.4509406
   },
   "derived": {
-    "annualised_fees_usd": 3932035715,
-    "fees_to_mcap_ratio": 0.08928
+    "annualised_fees_usd": 3934161004,
+    "fees_to_mcap_ratio": 0.08897
   },
-  "errors": [],
-  "ok": true
+  "errors": [
+    {
+      "metric": "getSupply",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "ok": false
 }
