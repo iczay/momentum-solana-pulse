@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:45:54+00:00",
+  "generated_at": "2026-08-19T10:42:10+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1019,
-    "slot_index": 33915,
+    "slot_index": 42029,
     "slots_in_epoch": 432000,
-    "progress_pct": 7.85,
-    "absolute_slot": 440241915,
-    "block_height": 418292084
+    "progress_pct": 9.73,
+    "absolute_slot": 440250029,
+    "block_height": 418300190
   },
   "performance": {
-    "tps_latest": 3149.2,
-    "tps_avg_1h": 3101.9,
-    "tps_peak_1h": 3742.1,
-    "non_vote_tps_latest": 1541.6,
-    "avg_slot_time_s": 0.415,
+    "tps_latest": 3234.6,
+    "tps_avg_1h": 3127.6,
+    "tps_peak_1h": 3406.5,
+    "non_vote_tps_latest": 1592.2,
+    "avg_slot_time_s": 0.416,
     "samples": 60
   },
   "health": "ok",
@@ -94,8 +94,8 @@
     ]
   },
   "supply": {
-    "total_sol": 632514667,
-    "circulating_sol": 583007414,
+    "total_sol": 632514639,
+    "circulating_sol": 583007386,
     "circulating_pct": 92.17
   },
   "defi": {
@@ -104,7 +104,7 @@
     "change_30d_pct": 0.36
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2858289756.74,
+    "stablecoin_supply_usd": 2858314111.38,
     "change_30d_pct": -1.71
   },
   "dex": {
@@ -113,19 +113,19 @@
     "change_1d_pct": 23.44
   },
   "fees": {
-    "fees_24h_usd": 8714303.23,
-    "fees_7d_usd": 62186614.25999999,
+    "fees_24h_usd": 8714031.23,
+    "fees_7d_usd": 62217387.25999999,
     "change_1d_pct": -22.77
   },
   "market": {
-    "price_usd": 77.18,
-    "market_cap_usd": 44995594679.49149,
-    "change_24h_pct": 1.78,
-    "volume_24h_usd": 1411046146.7051668
+    "price_usd": 77.26,
+    "market_cap_usd": 45043827488.020706,
+    "change_24h_pct": 1.93,
+    "volume_24h_usd": 1407574883.0079815
   },
   "derived": {
-    "annualised_fees_usd": 3180720679,
-    "fees_to_mcap_ratio": 0.07069
+    "annualised_fees_usd": 3180621399,
+    "fees_to_mcap_ratio": 0.07061
   },
   "errors": [],
   "ok": true
