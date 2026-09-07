@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T04:29:34+00:00",
+  "generated_at": "2026-09-07T10:11:25+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,17 +7,17 @@
   },
   "epoch": {
     "epoch": 1030,
-    "slot_index": 14587,
+    "slot_index": 79351,
     "slots_in_epoch": 432000,
-    "progress_pct": 3.38,
-    "absolute_slot": 444974587,
-    "block_height": 423018865
+    "progress_pct": 18.37,
+    "absolute_slot": 445039351,
+    "block_height": 423083621
   },
   "performance": {
-    "tps_latest": 3540.6,
-    "tps_avg_1h": 3794.6,
-    "tps_peak_1h": 4754.4,
-    "non_vote_tps_latest": 1423.8,
+    "tps_latest": 3288.4,
+    "tps_avg_1h": 3362.4,
+    "tps_peak_1h": 3826.1,
+    "non_vote_tps_latest": 1170.1,
     "avg_slot_time_s": 0.317,
     "samples": 60
   },
@@ -26,7 +26,7 @@
     "active": 675,
     "delinquent": 13,
     "delinquent_pct": 1.89,
-    "total_active_stake_sol": 439352753,
+    "total_active_stake_sol": 439344087,
     "nakamoto_coefficient": 18,
     "top10_stake_pct": 24.2,
     "avg_commission_pct": 12.5,
@@ -94,8 +94,8 @@
     ]
   },
   "supply": {
-    "total_sol": 633643651,
-    "circulating_sol": 586166505,
+    "total_sol": 633643462,
+    "circulating_sol": 586166183,
     "circulating_pct": 92.51
   },
   "defi": {
@@ -104,7 +104,7 @@
     "change_30d_pct": 25.46
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2765522029.08,
+    "stablecoin_supply_usd": 2765504391.05,
     "change_30d_pct": -6.52
   },
   "dex": {
@@ -118,14 +118,14 @@
     "change_1d_pct": 0.44
   },
   "market": {
-    "price_usd": 105.22,
-    "market_cap_usd": 61673081797.53575,
-    "change_24h_pct": -0.61,
-    "volume_24h_usd": 3704278184.0879664
+    "price_usd": 104.9,
+    "market_cap_usd": 61489297690.452774,
+    "change_24h_pct": -1.68,
+    "volume_24h_usd": 3602114140.0451555
   },
   "derived": {
     "annualised_fees_usd": 3825930548,
-    "fees_to_mcap_ratio": 0.06204
+    "fees_to_mcap_ratio": 0.06222
   },
   "errors": [],
   "ok": true
