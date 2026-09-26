@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:50:40+00:00",
+  "generated_at": "2026-09-26T22:43:46+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,70 +7,70 @@
   },
   "epoch": {
     "epoch": 1043,
-    "slot_index": 197610,
+    "slot_index": 236311,
     "slots_in_epoch": 432000,
-    "progress_pct": 45.74,
-    "absolute_slot": 450773610,
-    "block_height": 428813349
+    "progress_pct": 54.7,
+    "absolute_slot": 450812311,
+    "block_height": 428852042
   },
   "performance": {
-    "tps_latest": 4857.0,
-    "tps_avg_1h": 4595.4,
-    "tps_peak_1h": 5195.1,
-    "non_vote_tps_latest": 2358.3,
-    "avg_slot_time_s": 0.269,
+    "tps_latest": 4951.7,
+    "tps_avg_1h": 4527.5,
+    "tps_peak_1h": 5325.4,
+    "non_vote_tps_latest": 2418.2,
+    "avg_slot_time_s": 0.268,
     "samples": 60
   },
   "health": "ok",
   "validators": {
-    "active": 676,
-    "delinquent": 11,
-    "delinquent_pct": 1.6,
-    "total_active_stake_sol": 437506365,
+    "active": 675,
+    "delinquent": 12,
+    "delinquent_pct": 1.75,
+    "total_active_stake_sol": 437325040,
     "nakamoto_coefficient": 18,
-    "top10_stake_pct": 24.61,
-    "avg_commission_pct": 12.59,
+    "top10_stake_pct": 24.62,
+    "avg_commission_pct": 12.91,
     "top_validators": [
       {
         "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "stake_sol": 17860284,
-        "stake_pct": 4.082,
+        "stake_pct": 4.084,
         "commission_pct": 7
       },
       {
         "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "stake_sol": 15799204,
-        "stake_pct": 3.611,
+        "stake_pct": 3.613,
         "commission_pct": 0
       },
       {
         "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "stake_sol": 12343056,
-        "stake_pct": 2.821,
+        "stake_pct": 2.822,
         "commission_pct": 0
       },
       {
         "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "stake_sol": 11222561,
-        "stake_pct": 2.565,
+        "stake_pct": 2.566,
         "commission_pct": 5
       },
       {
         "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "stake_sol": 10836562,
-        "stake_pct": 2.477,
+        "stake_pct": 2.478,
         "commission_pct": 0
       },
       {
         "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "stake_sol": 9237102,
-        "stake_pct": 2.111,
+        "stake_pct": 2.112,
         "commission_pct": 7
       },
       {
         "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "stake_sol": 9182742,
-        "stake_pct": 2.099,
+        "stake_pct": 2.1,
         "commission_pct": 10
       },
       {
@@ -82,29 +82,29 @@
       {
         "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "stake_sol": 7093311,
-        "stake_pct": 1.621,
+        "stake_pct": 1.622,
         "commission_pct": 5
       },
       {
         "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "stake_sol": 6506505,
-        "stake_pct": 1.487,
+        "stake_pct": 1.488,
         "commission_pct": 0
       }
     ]
   },
   "supply": {
-    "total_sol": 634763651,
-    "circulating_sol": 587712447,
+    "total_sol": 634763526,
+    "circulating_sol": 587712322,
     "circulating_pct": 92.59
   },
   "defi": {
-    "tvl_usd": 6639797381,
-    "change_7d_pct": 5.3,
-    "change_30d_pct": 14.75
+    "tvl_usd": 6630380356,
+    "change_7d_pct": 5.15,
+    "change_30d_pct": 14.58
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2665341977.37,
+    "stablecoin_supply_usd": 2665437870.96,
     "change_30d_pct": -6.0
   },
   "dex": {
@@ -118,14 +118,14 @@
     "change_1d_pct": -2.38
   },
   "market": {
-    "price_usd": 121.12,
-    "market_cap_usd": 71167109392.41064,
-    "change_24h_pct": -0.61,
-    "volume_24h_usd": 3144072889.3561406
+    "price_usd": 121.18,
+    "market_cap_usd": 71219965700.62796,
+    "change_24h_pct": -0.96,
+    "volume_24h_usd": 2977596832.795693
   },
   "derived": {
     "annualised_fees_usd": 5693484427,
-    "fees_to_mcap_ratio": 0.08
+    "fees_to_mcap_ratio": 0.07994
   },
   "errors": [],
   "ok": true
