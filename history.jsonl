@@ -621,3 +621,4 @@
 {"t": "2026-10-13T10:26:45+00:00", "tps": 4629.8, "price": 106.76, "tvl": 6074562468, "stables": 2822597888.12, "dex_vol": 1866875583.02, "validators": 673, "delinquent": 7, "nakamoto": 18}
 {"t": "2026-10-13T18:11:56+00:00", "tps": 5356.0, "price": 107.6, "tvl": 6023382406, "stables": 2822729107.92, "dex_vol": 2231842381.02, "validators": 673, "delinquent": 7, "nakamoto": 18}
 {"t": "2026-10-13T23:15:17+00:00", "tps": 4910.6, "price": 106.59, "tvl": 6024467850, "stables": 2823031149.31, "dex_vol": 2231842381.02, "validators": 673, "delinquent": 7, "nakamoto": 18}
+{"t": "2026-10-14T04:45:49+00:00", "tps": 4677.4, "price": 108.0, "tvl": 6040589357, "stables": 2793080843.28, "dex_vol": 2277563138.38, "validators": 673, "delinquent": 5, "nakamoto": 18}
