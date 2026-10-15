@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T04:28:34+00:00",
+  "generated_at": "2026-10-15T09:49:17+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1058,
-    "slot_index": 48316,
+    "slot_index": 137229,
     "slots_in_epoch": 432000,
-    "progress_pct": 11.18,
-    "absolute_slot": 457104316,
-    "block_height": 435140242
+    "progress_pct": 31.77,
+    "absolute_slot": 457193229,
+    "block_height": 435229126
   },
   "performance": {
-    "tps_latest": 4795.4,
-    "tps_avg_1h": 4917.2,
-    "tps_peak_1h": 5516.0,
-    "non_vote_tps_latest": 1730.8,
-    "avg_slot_time_s": 0.217,
+    "tps_latest": 4954.8,
+    "tps_avg_1h": 4648.1,
+    "tps_peak_1h": 5698.8,
+    "non_vote_tps_latest": 1833.6,
+    "avg_slot_time_s": 0.215,
     "samples": 60
   },
   "health": "ok",
@@ -94,18 +94,18 @@
     ]
   },
   "supply": {
-    "total_sol": 635844818,
-    "circulating_sol": 589268974,
+    "total_sol": 635844588,
+    "circulating_sol": 589268745,
     "circulating_pct": 92.67
   },
   "defi": {
-    "tvl_usd": 5933940690,
-    "change_7d_pct": -7.6,
-    "change_30d_pct": 0.69
+    "tvl_usd": 5901518462,
+    "change_7d_pct": -8.11,
+    "change_30d_pct": 0.14
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2782289892.96,
-    "change_30d_pct": 11.99
+    "stablecoin_supply_usd": 2782016504.31,
+    "change_30d_pct": 11.98
   },
   "dex": {
     "volume_24h_usd": 2250924739.3199997,
@@ -118,14 +118,14 @@
     "change_1d_pct": -9.62
   },
   "market": {
-    "price_usd": 103.26,
-    "market_cap_usd": 60895791206.832924,
-    "change_24h_pct": -4.03,
-    "volume_24h_usd": 3934517226.484583
+    "price_usd": 102.78,
+    "market_cap_usd": 60563968515.1338,
+    "change_24h_pct": -3.55,
+    "volume_24h_usd": 4090418995.0423174
   },
   "derived": {
     "annualised_fees_usd": 3884537915,
-    "fees_to_mcap_ratio": 0.06379
+    "fees_to_mcap_ratio": 0.06414
   },
   "errors": [],
   "ok": true
