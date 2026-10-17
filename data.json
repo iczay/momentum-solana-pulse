@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:21:27+00:00",
+  "generated_at": "2026-10-17T22:13:57+00:00",
   "sources": {
     "onchain": "https://api.mainnet-beta.solana.com",
     "defi": "https://defillama.com/chain/Solana",
@@ -7,18 +7,18 @@
   },
   "epoch": {
     "epoch": 1060,
-    "slot_index": 230636,
+    "slot_index": 278239,
     "slots_in_epoch": 432000,
-    "progress_pct": 53.39,
-    "absolute_slot": 458150636,
-    "block_height": 436186011
+    "progress_pct": 64.41,
+    "absolute_slot": 458198239,
+    "block_height": 436233608
   },
   "performance": {
-    "tps_latest": 4309.4,
-    "tps_avg_1h": 4908.0,
-    "tps_peak_1h": 5624.3,
-    "non_vote_tps_latest": 1217.7,
-    "avg_slot_time_s": 0.217,
+    "tps_latest": 5360.2,
+    "tps_avg_1h": 5405.0,
+    "tps_peak_1h": 7005.2,
+    "non_vote_tps_latest": 2336.1,
+    "avg_slot_time_s": 0.218,
     "samples": 60
   },
   "health": "ok",
@@ -26,45 +26,45 @@
     "active": 670,
     "delinquent": 11,
     "delinquent_pct": 1.62,
-    "total_active_stake_sol": 438698967,
+    "total_active_stake_sol": 438567148,
     "nakamoto_coefficient": 18,
-    "top10_stake_pct": 24.41,
-    "avg_commission_pct": 12.99,
+    "top10_stake_pct": 24.42,
+    "avg_commission_pct": 12.98,
     "top_validators": [
       {
         "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "stake_sol": 17532933,
-        "stake_pct": 3.997,
+        "stake_pct": 3.998,
         "commission_pct": 7
       },
       {
         "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "stake_sol": 15736568,
-        "stake_pct": 3.587,
+        "stake_pct": 3.588,
         "commission_pct": 0
       },
       {
         "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "stake_sol": 12486161,
-        "stake_pct": 2.846,
+        "stake_pct": 2.847,
         "commission_pct": 0
       },
       {
         "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "stake_sol": 10972883,
-        "stake_pct": 2.501,
+        "stake_pct": 2.502,
         "commission_pct": 0
       },
       {
         "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "stake_sol": 10191942,
-        "stake_pct": 2.323,
+        "stake_pct": 2.324,
         "commission_pct": 5
       },
       {
         "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "stake_sol": 9445787,
-        "stake_pct": 2.153,
+        "stake_pct": 2.154,
         "commission_pct": 10
       },
       {
@@ -88,23 +88,23 @@
       {
         "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "stake_sol": 6726220,
-        "stake_pct": 1.533,
+        "stake_pct": 1.534,
         "commission_pct": 0
       }
     ]
   },
   "supply": {
-    "total_sol": 635967237,
-    "circulating_sol": 589382202,
+    "total_sol": 635967101,
+    "circulating_sol": 589382066,
     "circulating_pct": 92.67
   },
   "defi": {
-    "tvl_usd": 5895104451,
-    "change_7d_pct": -4.29,
-    "change_30d_pct": 2.4
+    "tvl_usd": 5909565051,
+    "change_7d_pct": -4.06,
+    "change_30d_pct": 2.65
   },
   "stablecoins": {
-    "stablecoin_supply_usd": 2662178358.58,
+    "stablecoin_supply_usd": 2662298548.74,
     "change_30d_pct": 13.57
   },
   "dex": {
@@ -113,19 +113,19 @@
     "change_1d_pct": -22.56
   },
   "fees": {
-    "fees_24h_usd": 12431928.329999998,
-    "fees_7d_usd": 84185669.1800001,
-    "change_1d_pct": -2.76
+    "fees_24h_usd": 12520918.329999998,
+    "fees_7d_usd": 84274659.1800001,
+    "change_1d_pct": -2.06
   },
   "market": {
-    "price_usd": 103.89,
-    "market_cap_usd": 61231946324.27883,
-    "change_24h_pct": 0.7,
-    "volume_24h_usd": 1576190807.5847316
+    "price_usd": 102.68,
+    "market_cap_usd": 60505597899.52186,
+    "change_24h_pct": -1.65,
+    "volume_24h_usd": 1655888965.0749688
   },
   "derived": {
-    "annualised_fees_usd": 4537653840,
-    "fees_to_mcap_ratio": 0.07411
+    "annualised_fees_usd": 4570135190,
+    "fees_to_mcap_ratio": 0.07553
   },
   "errors": [],
   "ok": true
